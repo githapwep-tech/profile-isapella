@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Profile Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      padding: 30px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #ee9ca7;
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    .card p {
+      color: #777;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .socials a {
+      color: #fff;
+      background-color: #ee9ca7;
+      padding: 10px;
+      border-radius: 50%;
+      font-size: 16px;
+      transition: 0.3s ease;
+    }
+
+    .socials a:hover {
+      background-color: #d16b86;
+    }
+
+    @media (max-width: 400px) {
+      .card {
+        padding: 20px;
+        max-width: 90%;
+      }
+
+      .card h2 {
+        font-size: 18px;
+      }
+
+      .card p {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="WhatsApp Image 2025-12-12 at 6.07.08 AM.jpeg" alt="Profile Picture">
+    <h2> ঔ.ꜝꜝ ᎥᏕᎪ ᏴᎬᏞᏞᎪぐ愛・</h2>
+    <p>❣هـًْنًْ الًْعًْابُْرًْاتًْ ۆَْانًْا الًْاثًْرًْ❀</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/profile.php?id=100089182401445"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/kim.__.basma1?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</body>
+</html>
